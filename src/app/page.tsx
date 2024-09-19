@@ -14,7 +14,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div id="contador">
       <h1>contador</h1>
       <p>{numero}</p>
       <div id="botoes">
