@@ -5,11 +5,11 @@ import "./globals.css";
 export default function Home() {
   const [numero, setNumero] = useState(0)
   
-  function aumentar1() {
+  function aumentar1(): void {
     setNumero(numero + 1)
   }
 
-  function diminuir1() {
+  function diminuir1(): void {
     setNumero(numero - 1)
   }
 
